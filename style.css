@@ -6,6 +6,7 @@ body {
 	width: 500px;
 	margin: auto;
 	margin-top: 100px;
+	text-align: center;
 }
 
 .movie-container select {
@@ -17,4 +18,56 @@ body {
 	-moz-appearance: none;
 	/* for Chrome */
 	-webkit-appearance: none;
+}
+
+.movie-info {
+	width: 500px;
+	margin: auto;
+	text-align: center;
+}
+
+.movie-info p {
+	background-color: black;
+	color: gray;
+	display: inline-flex;
+	padding: 5px;
+	border-radius: 4px;
+	margin: 10px;
+}
+
+.movie-info p span {
+	color: aqua;
+}
+
+.seats-container {
+	margin: 0 auto;
+	width: 500px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.seat {
+	height: 25px;
+	width: 25px;
+	background-color: gray;
+	margin: 5px;
+	border-top-right-radius: 50%;
+	border-top-left-radius: 50%;
+}
+
+.occupied {
+	background-color: red;
+}
+
+.row {
+	display: flex;
+}
+
+.seat:nth-child(2) {
+	margin-right: 30px;
+}
+
+.seat:nth-last-child(2) {
+	margin-left: 30px;
 }
