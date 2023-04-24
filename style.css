@@ -60,6 +60,10 @@ body {
 	background-color: red;
 }
 
+.selected {
+	background-color: green;
+}
+
 .row {
 	display: flex;
 }
@@ -70,4 +74,16 @@ body {
 
 .seat:nth-last-child(2) {
 	margin-left: 30px;
+}
+
+.legend {
+	background-color: black;
+	color: gray;
+	display: flex;
+	border-radius: 10px;
+}
+
+.legend-seat {
+	display: flex;
+	align-items: center;
 }
