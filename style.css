@@ -1,0 +1,20 @@
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.movie-container {
+	width: 500px;
+	margin: auto;
+	margin-top: 100px;
+}
+
+.movie-container select {
+	border: none;
+	background-color: gray;
+	padding: 10px;
+	width: 200px;
+	/* for Firefox */
+	-moz-appearance: none;
+	/* for Chrome */
+	-webkit-appearance: none;
+}
